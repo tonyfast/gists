@@ -14,7 +14,12 @@ jobs:
     - run: python -m nbconvert --execute --to markdown --stdout build.ipynb
     - run: python -m black .
     - run: python -m isort **/*.ipynb
-    - run: python -m pytest
-   
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: build # The folder the action should deploy.
 
 
