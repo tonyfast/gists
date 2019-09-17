@@ -25,3 +25,4 @@ pyld
 idna
 toolz
 rfc3987
+wheel
