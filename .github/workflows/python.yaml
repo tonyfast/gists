@@ -14,7 +14,6 @@ jobs:
     - run: python -m nbconvert --execute --to markdown --stdout build.ipynb
     - run: python -m black .
     - run: python -m isort **/*.ipynb
-    - run: python -m pytest
    
 
 
