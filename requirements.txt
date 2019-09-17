@@ -6,6 +6,7 @@ rfc3986
 hvplot
 requests-cache
 nbconvert
+isort
 jsonschema
 matplotlib
 nbval
