@@ -1,7 +1,7 @@
 on: [push]
 jobs:
   run:
-    runs-on: ${{ matrix.operating-system }}
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
     - uses: actions/setup-python@v1
