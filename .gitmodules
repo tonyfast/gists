@@ -4,3 +4,6 @@
 [submodule "wypes"]
         path = wypes
         url = https://gist.github.com/tonyfast/6382152537773be2ffc208c3d4e526c2
+[submodule "qr"]
+	path = qr
+	url = https://gist.github.com/tonyfast/646e4f4f216286c6aa0a17fadba2c505
