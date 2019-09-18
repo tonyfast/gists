@@ -6,3 +6,4 @@ isort
 pandas
 nbconvert
 jupyter-client
+wheel
