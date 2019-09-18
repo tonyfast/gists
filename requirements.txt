@@ -4,3 +4,4 @@ nbsphinx
 black
 isort
 pandas
+nbconvert
