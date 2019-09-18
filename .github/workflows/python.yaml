@@ -16,7 +16,7 @@ jobs:
     - run: python -m isort **/*.ipynb
     - run: python setup.py sdist
     - run: python setup.py bdist_wheel
-    - run: python -m datasette data.sqlite --name deathbeds-notebooks --install=datasette-auth-github --plugin-secret datasette-auth-github tonyfast {{secrets.heroku}}
+    - run: python -m datasette publish heroku data.sqlite --name deathbeds-notebooks --install=datasette-auth-github --plugin-secret datasette-auth-github tonyfast {{secrets.heroku}}
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
