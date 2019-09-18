@@ -30,5 +30,3 @@ jobs:
       with:
         user: docfast
         password: ${{ secrets.test_pypi_password }}
-
-
