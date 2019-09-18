@@ -31,4 +31,4 @@ jobs:
         password: ${{ secrets.test_pypi_password }}
     - uses: actions/heroku@master
     - run: heroku plugins:install heroku-builds
-    - run: python -m datasette publish heroku data.sqlite
+    - run: python -m datasette publish heroku data.sqlite --name deathbeds-notebooks
