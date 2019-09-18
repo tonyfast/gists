@@ -4,8 +4,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
-    - uses: actions/heroku@master
-
     - uses: actions/setup-python@v1
       with:
         python-version: '3.7' # Version range or exact version of a Python version to use, using semvers version range syntax.
@@ -31,3 +29,4 @@ jobs:
       with:
         user: docfast
         password: ${{ secrets.test_pypi_password }}
+    - uses: actions/heroku@master
