@@ -30,3 +30,4 @@ jobs:
         user: docfast
         password: ${{ secrets.test_pypi_password }}
     - uses: actions/heroku@master
+    - run: python -m datasette deploy heroku data.sqlite
