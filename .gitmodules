@@ -1,9 +1,9 @@
-[submodule "gidget"]
-	path = gidget
+[submodule "tonyfast/wypes"]
+	path = tonyfast/wypes
+	url = https://gist.github.com/tonyfast/6382152537773be2ffc208c3d4e526c2
+[submodule "tonyfast/gidget"]
+	path = tonyfast/gidget
 	url = https://gist.github.com/tonyfast/00ae53f59c9340f71b9605eca1d07019
-[submodule "wypes"]
-        path = wypes
-        url = https://gist.github.com/tonyfast/6382152537773be2ffc208c3d4e526c2
-[submodule "qr"]
-	path = qr
+[submodule "tonyfast/qr"]
+	path = tonyfast/qr
 	url = https://gist.github.com/tonyfast/646e4f4f216286c6aa0a17fadba2c505
