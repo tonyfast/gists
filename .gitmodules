@@ -7,3 +7,6 @@
 [submodule "tonyfast/qr"]
 	path = tonyfast/qr
 	url = https://gist.github.com/tonyfast/646e4f4f216286c6aa0a17fadba2c505
+[submodule "tonyfast/jschema"]
+	path = tonyfast/jschema
+	url = https://gist.github.com/tonyfast/fee98e31e3da90c3606c5dc14a703f0c
