@@ -1,9 +1,6 @@
-datasette
-sqlite-utils
-nbsphinx
-black
-isort
 pandas
 nbconvert
 jupyter-client
 wheel
+GitPython
+importnb
