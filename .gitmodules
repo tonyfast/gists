@@ -12,4 +12,4 @@
 	url = https://gist.github.com/tonyfast/fee98e31e3da90c3606c5dc14a703f0c
 [submodule "docs"]
 	path = docs
-	url = https://github.com/daviddarnes/alembic
+	url = https://github.com/tonyfast/alembic
