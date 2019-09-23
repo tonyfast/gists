@@ -13,3 +13,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/tonyfast/alembic
+[submodule "tonyfast/ainteractive"]
+	path = tonyfast/ainteractive
+	url = https://gist.github.com/tonyfast/e387e567cebf4ec726be9f1bde6503f5
