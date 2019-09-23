@@ -19,7 +19,9 @@ setup_args = dict(
     license="BSD-3-Clause",
     setup_requires=['pytest-runner'],
     tests_require=['pytest', "hypothesis", 'nbval'],
-    install_requires=Path('requirements.txt').read_text().splitlines(),
+    install_requires=list(set(
+            filter(bool, map(str.strip, '\n'.join(x.read_text() for x in Path().rglob('**/requirements.txt')).splitlines()))
+        )),
     include_package_data=True,
     packages=setuptools.find_packages(),
     entry_points = {
