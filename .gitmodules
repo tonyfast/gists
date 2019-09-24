@@ -16,3 +16,9 @@
 [submodule "tonyfast/ainteractive"]
 	path = tonyfast/ainteractive
 	url = https://gist.github.com/tonyfast/e387e567cebf4ec726be9f1bde6503f5
+[submodule "tonyfast/why-importnb"]
+	path = tonyfast/why-importnb
+	url = https://gist.github.com/tonyfast/15c6ac8f005a5522291f08d95619e085
+[submodule "tonyfast/pydantic-essays"]
+	path = tonyfast/pydantic-essays
+	url = https://gist.github.com/tonyfast/15c6ac8f005a5522291f08d95619e085
