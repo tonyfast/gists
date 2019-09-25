@@ -12,7 +12,7 @@
 	url = https://gist.github.com/tonyfast/fee98e31e3da90c3606c5dc14a703f0c
 [submodule "docs"]
 	path = docs
-	url = https://github.com/tonyfast/alembic
+	url = https://github.com/tonyfast/jekyll-now
 [submodule "tonyfast/ainteractive"]
 	path = tonyfast/ainteractive
 	url = https://gist.github.com/tonyfast/e387e567cebf4ec726be9f1bde6503f5
