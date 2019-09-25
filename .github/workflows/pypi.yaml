@@ -1,23 +1,23 @@
-on: [push]
-jobs:
-  run:
-    runs-on: ubuntu-18.04
-    steps:
-    - uses: actions/checkout@master
-    - uses: actions/setup-python@v1
-      with:
-        python-version: '3.7' # Version range or exact version of a Python version to use, using semvers version range syntax.
-        architecture: 'x64' # (x64 or x86)
-    - run: git submodule update --init --recursive
-    - run: python -m pip install -r requirements.txt 
-    - run: python -m jupyter nbconvert --to notebook --TemplateExporter.exclude_output=True  --inplace `find . -name '*.ipynb'`
-    - run: python setup.py sdist
-    - run: python setup.py bdist_wheel
-    - name: Publish package to Test PyPI
-      uses: pypa/gh-action-pypi-publish@master
-      with:
-        user: docfast
-        password: ${{ secrets.test_pypi_password }}
-    #- uses: actions/heroku@master
-    #- run: heroku plugins:install heroku-builds
-    #- run: python -m datasette publish heroku data.sqlite --name deathbeds-notebooks --install=datasette-auth-github --plugin-secret datasette-auth-github tonyfast {{secrets.HEROKU_API_KEY}}
+# on: [push]
+# jobs:
+#   run:
+#     runs-on: ubuntu-18.04
+#     steps:
+#     - uses: actions/checkout@master
+#     - uses: actions/setup-python@v1
+#       with:
+#         python-version: '3.7' # Version range or exact version of a Python version to use, using semvers version range syntax.
+#         architecture: 'x64' # (x64 or x86)
+#     - run: git submodule update --init --recursive
+#     - run: python -m pip install -r requirements.txt 
+#     - run: python -m jupyter nbconvert --to notebook --TemplateExporter.exclude_output=True  --inplace `find . -name '*.ipynb'`
+#     - run: python setup.py sdist
+#     - run: python setup.py bdist_wheel
+#     - name: Publish package to Test PyPI
+#       uses: pypa/gh-action-pypi-publish@master
+#       with:
+#         user: docfast
+#         password: ${{ secrets.test_pypi_password }}
+#     #- uses: actions/heroku@master
+#     #- run: heroku plugins:install heroku-builds
+#     #- run: python -m datasette publish heroku data.sqlite --name deathbeds-notebooks --install=datasette-auth-github --plugin-secret datasette-auth-github tonyfast {{secrets.HEROKU_API_KEY}}
