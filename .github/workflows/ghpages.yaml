@@ -9,8 +9,7 @@ jobs:
         python-version: '3.7' # Version range or exact version of a Python version to use, using semvers version range syntax.
         architecture: 'x64' # (x64 or x86)
     - run: git submodule update --init --recursive
-    - run: python -m pip install -r requirements.txt
-    - run: pushd docs && python -m jupyter nbconvert --to markdown readme.ipynb && popd
+    - run: pushd docs && python -m pip install -r requirements.txt && popd
     - run: pushd docs && python -m jupyter nbconvert --to python create.ipynb && python create.py && rm create.py && popd
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
