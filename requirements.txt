@@ -4,3 +4,4 @@ jupyter-client
 wheel
 GitPython
 importnb
+toolz
