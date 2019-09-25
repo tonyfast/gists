@@ -10,9 +10,8 @@ jobs:
         architecture: 'x64' # (x64 or x86)
     - run: git submodule update --init --recursive
     - run: python -m pip install -r requirements.txt
-    - run: python -m jupyter nbconvert --to markdown readme.ipynb
-    - run: mkdir docs
-    - run: mv readme.md docs
+    - run: pushd docs && python -m jupyter nbconvert --to markdown readme.ipynb && popd
+    - run: pushd docs && python -m jupyter nbconvert --to python create.ipynb && python create.py && rm create.py && popd
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
