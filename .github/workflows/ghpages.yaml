@@ -10,6 +10,7 @@ jobs:
         architecture: 'x64' # (x64 or x86)
     - run: git submodule update --remote
     - run: git clone https://github.com/tonyfast/jekyll-now docs
+    - run: rm -rf docs/.git
     - run: pip install -r requirements.txt
     - run: pushd docs && python -m pip install -r requirements.txt && popd
     - run: python -m jupyter nbconvert --to script docs/create.ipynb && python docs/create.py
