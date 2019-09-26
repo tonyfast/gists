@@ -22,6 +22,3 @@
 [submodule "tonyfast/notebook-documents"]
 	path = tonyfast/notebook-documents
 	url = https://gist.github.com/tonyfast/7b66a5d9b09c4754c4a7577242975cb1
-[submodule "docs"]
-	path = docs
-	url = https://github.com/tonyfast/jekyll-now
