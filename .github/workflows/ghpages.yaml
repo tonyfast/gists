@@ -12,7 +12,7 @@ jobs:
     - run: git clone https://github.com/tonyfast/jekyll-now docs
     - run: pip install -r requirements.txt
     - run: pushd docs && python -m pip install -r requirements.txt && popd
-    - run: python -m jupyter nbconvert --to python docs/create.ipynb && python docs/create.py
+    - run: python -m jupyter nbconvert --to script docs/create.ipynb && python docs/create.py
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
