@@ -8,9 +8,9 @@ jobs:
       with:
         python-version: '3.7' # Version range or exact version of a Python version to use, using semvers version range syntax.
         architecture: 'x64' # (x64 or x86)
-    - run: git submodule update --init --recursive --remote
+    - run: git submodule update --init --recursive
     - run: git clone https://github.com/tonyfast/jekyll-now docs
-    - run: rm -rf docs/.git
+    - run: cp _config.yml docs
     - run: pip install -r requirements.txt
     - run: pushd docs && python -m pip install -r requirements.txt && popd
     - run: python -m jupyter nbconvert --to script build.ipynb && ipython build.py
