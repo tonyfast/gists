@@ -13,7 +13,7 @@ jobs:
     - run: rm -rf docs/.git
     - run: pip install -r requirements.txt
     - run: pushd docs && python -m pip install -r requirements.txt && popd
-    - run: python -m jupyter nbconvert --to script docs/create.ipynb && ipython docs/create.py
+    - run: python -m jupyter nbconvert --to script build.ipynb && ipython build.py
     - name: Build and Deploy
       uses: JamesIves/github-pages-deploy-action@master
       env:
