@@ -7,3 +7,5 @@ def unload_ipython_extension(shell):
     jschema.unload_ipython_extension(shell)
     ainteractive.unload_ipython_extension(shell)
     
+
+with __import__('importnb').Notebook(): from . import articles
