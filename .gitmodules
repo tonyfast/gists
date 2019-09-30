@@ -16,12 +16,12 @@
 [submodule "tonyfast/why-importnb"]
 	path = tonyfast/why-importnb
 	url = https://gist.github.com/tonyfast/15c6ac8f005a5522291f08d95619e085
-[submodule "tonyfast/pydantic-essays"]
-	path = tonyfast/pydantic-essays
-	url = https://gist.github.com/tonyfast/15c6ac8f005a5522291f08d95619e085
 [submodule "tonyfast/notebook-documents"]
 	path = tonyfast/notebook-documents
 	url = https://gist.github.com/tonyfast/7b66a5d9b09c4754c4a7577242975cb1
 [submodule "tonyfast/nasa"]
 	path = tonyfast/nasa
 	url = https://gist.github.com/tonyfast/79779f89e749c72e72b6b4470b512496
+[submodule "tonyfast/pydantic-essays"]
+	path = tonyfast/pydantic-essays
+	url = https://gist.github.com/tonyfast/d845d7a63ba24aab895a1580b8702aff
