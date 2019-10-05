@@ -25,3 +25,6 @@
 [submodule "tonyfast/pydantic-essays"]
 	path = tonyfast/pydantic-essays
 	url = https://gist.github.com/tonyfast/d845d7a63ba24aab895a1580b8702aff
+[submodule "tonyfast/literacy"]
+	path = tonyfast/literacy
+	url = https://gist.github.com/tonyfast/3b66729ac43e6e47ea38e882091b7b71
