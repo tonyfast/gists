@@ -28,3 +28,6 @@
 [submodule "tonyfast/literacy"]
 	path = tonyfast/literacy
 	url = https://gist.github.com/tonyfast/3b66729ac43e6e47ea38e882091b7b71
+[submodule "tonyfast/github-api"]
+	path = tonyfast/github-api
+	url = https://gist.github.com/tonyfast/2f9a447428e5eaad2f1bd772c3cf5e80
