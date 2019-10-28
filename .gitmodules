@@ -34,3 +34,6 @@
 [submodule "tonyfast/poser"]
 	path = tonyfast/poser
 	url = https://gist.github.com/tonyfast/84c1a8700ccc95cf68757244218d2efd
+[submodule "tonyfast/panda"]
+	path = tonyfast/panda
+	url = https://gist.github.com/tonyfast/fcaf9e7e6d430ca3845ebb6af760bfab
