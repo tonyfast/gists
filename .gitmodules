@@ -37,3 +37,6 @@
 [submodule "tonyfast/panda"]
 	path = tonyfast/panda
 	url = https://gist.github.com/tonyfast/fcaf9e7e6d430ca3845ebb6af760bfab
+[submodule "tonyfast/profiling"]
+	path = tonyfast/profiling
+	url = https://gist.github.com/tonyfast/410e7a5d42942eb0a750cddf31c504c9
