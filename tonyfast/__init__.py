@@ -8,4 +8,4 @@ def unload_ipython_extension(shell):
     ainteractive.unload_ipython_extension(shell)
     
 
-with __import__('importnb').Notebook(): from . import articles
+with __import__('importnb').Notebook(lazy=True): from . import articles
