@@ -43,3 +43,6 @@
 [submodule "tonyfast/configfile"]
 	path = tonyfast/configfile
 	url = https://gist.github.com/tonyfast/383b5ccee549dd8c51d81662f4e19aac
+[submodule "tests"]
+	path = tests
+	url = https://gist.github.com/tonyfast/4f56c72c99fdd346481a01ad27a9aaf4
