@@ -46,3 +46,18 @@
 [submodule "tests"]
 	path = tests
 	url = https://gist.github.com/tonyfast/4f56c72c99fdd346481a01ad27a9aaf4
+[submodule "tonyfast/first_look/github_api_boiler"]
+	path = tonyfast/first_look/github_api_boiler
+	url = https://gist.github.com/tonyfast/a858087a657bb8fbcb9a6b8771e3d025
+[submodule "tonyfast/first_look/anyconfig"]
+	path = tonyfast/first_look/anyconfig
+	url = https://gist.github.com/tonyfast/383b5ccee549dd8c51d81662f4e19aac
+[submodule "tonyfast/first_look/profilers"]
+	path = tonyfast/first_look/profilers
+	url = https://gist.github.com/tonyfast/410e7a5d42942eb0a750cddf31c504c9
+[submodule "tonyfast/first_look/dask_pub_sub"]
+	path = tonyfast/first_look/dask_pub_sub
+	url = https://gist.github.com/tonyfast/93565233d18c899a18265d3b6c8a0da8
+[submodule "tonyfast/essays/calligrams"]
+	path = tonyfast/essays/calligrams
+	url = https://gist.github.com/tonyfast/a1c50b9e2ff6385492245859ca34b053
