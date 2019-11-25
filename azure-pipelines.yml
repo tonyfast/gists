@@ -31,5 +31,5 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
-    ipython -m pytest
+    pytest
   displayName: 'pytest'
