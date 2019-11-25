@@ -1,2 +1,2 @@
-recursive-include futurewarningtv *.ipynb
-recursive-include futurewarningtv *.md
+recursive-include tonyfast *.ipynb
+recursive-include tonyfast *.md
