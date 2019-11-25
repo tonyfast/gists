@@ -1,7 +1,7 @@
 import setuptools, datetime, nbconvert
 from pathlib import Path
 
-name = "futurewarningtv"
+name = "tonyfast"
 
 __version__ = None
 
@@ -11,9 +11,10 @@ setup_args = dict(
     name=name,
     version=datetime.datetime.now().isoformat().rpartition(':')[0].replace('-', '.').replace('T', '.').replace(':', '.'),
     author="tonyfast",
-    url="https://github.com/futurewarningtv/gists",
+    url="https://github.com/tonyfast/gists",
     long_description=nbconvert.get_exporter('markdown')().from_filename(Path('readme.ipynb'))[0],
     long_description_content_type='text/markdown',
+
     python_requires=">=3.7",
     license="BSD-3-Clause",
     setup_requires=['pytest-runner'],
